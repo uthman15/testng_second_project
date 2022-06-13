@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 126.608 sec <<< FAILURE! - in TestSuite
+testRoundTripOneWayRadioButtons(scripts.UnitedAirlinesTest)  Time elapsed: 17.189 sec  <<< FAILURE!
+java.lang.AssertionError
+	at scripts.UnitedAirlinesTest.testRoundTripOneWayRadioButtons(UnitedAirlinesTest.java:35)
+
+testOnewayTicketResults(scripts.UnitedAirlinesTest)  Time elapsed: 66.822 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#\#bookFlightOriginInput"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Uthmans-MacBook-Pro.local', ip: '2601:244:4801:930:7533:ce22:5bd4:5b9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/09/rldzht6j09b...}, goog:chromeOptions: {debuggerAddress: localhost:53085}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 13b2c1db7de9fb619457b716b00e8b05
+*** Element info: {Using=id, value=#bookFlightOriginInput}
+	at scripts.UnitedAirlinesTest.testOnewayTicketResults(UnitedAirlinesTest.java:73)
+
